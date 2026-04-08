@@ -1,0 +1,54 @@
+
+/* selector { propiedad: valor;} 
+    etiqueta
+    .clase
+    #id
+    *
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* clase */
+.textoBase{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* id */
+#parrafoFinal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+/* Maqueta */
+.header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* border: black solid; */
+    background: rgb(196, 8, 8);
+}
+.noticia{
+    width: 80%;
+    padding: 3%;
+    margin-left:auto;
+    margin-right: auto;
+    border-bottom: dashed 1px rgb(166, 166, 166);
+}
+
+.img{
+    width: 100%;
+}
+
+.footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
